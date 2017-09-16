@@ -28,7 +28,7 @@ Algoritmos são estruturas bem definidas de sequencia de instruções que recebe
 
  1.1-1 FORNEÇA UM EXEMPLO REAL NO QUAL APAREÇA UM DOS PROBLEMAS COMPUTACIONAIS A SEGUIR : ORDENAÇÃO; DETERMINAÇÃO DA MELHOR ORDEM DE MULTIPLICAÇÃO DE MATRIZES OU LOCALIZAÇÃO DA ENVOLTÓRIA CONVEXA.
 
-<p style="color:red">RESPOSTA : Atualmente costumo a jogar um jogo mobile de estratégia chamado clash Royale,  onde no jogo se possui cartas e cada carta tem como propriedades : raridade e quantidade de elixir, e na interface do jogo se tem a opção de ordenar as cartas por raridade ou por quantidade de elixir, onde com certeza foi usado um algoritmo de ordenação para a solução desse problema.</p>
+<p style="color:#B22222">RESPOSTA : Atualmente costumo a jogar um jogo mobile de estratégia chamado clash Royale,  onde no jogo se possui cartas e cada carta tem como propriedades : raridade e quantidade de elixir, e na interface do jogo se tem a opção de ordenar as cartas por raridade ou por quantidade de elixir, onde com certeza foi usado um algoritmo de ordenação para a solução desse problema.</p>
 
 
 
