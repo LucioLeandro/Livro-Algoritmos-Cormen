@@ -2,7 +2,7 @@ Capítulo 1
 
 A função dos algoritmos na computação
 
-Resumo :
+<h1>Resumo :</h1>
 
 Algoritmos são estruturas bem definidas de sequencia de instruções que recebe um dado ou dados,
  o trata e retorna uma saída esperada.
@@ -28,11 +28,14 @@ Algoritmos são estruturas bem definidas de sequencia de instruções que recebe
 
  1.1-1 FORNEÇA UM EXEMPLO REAL NO QUAL APAREÇA UM DOS PROBLEMAS COMPUTACIONAIS A SEGUIR : ORDENAÇÃO; DETERMINAÇÃO DA MELHOR ORDEM DE MULTIPLICAÇÃO DE MATRIZES OU LOCALIZAÇÃO DA ENVOLTÓRIA CONVEXA.
 
+RESPOSTA : Atualmente costumo a jogar um jogo mobile de estratégia chamado clash Royale,  onde no jogo se possui cartas e cada carta tem como propriedades : raridade e quantidade de elixir, e na interface do jogo se tem a opção de ordenar as cartas por raridade ou por quantidade de elixir, onde com certeza foi usado um algoritmo de ordenação para a solução desse problema.
+
 
 
  1.1-2 ALÉM DA VELOCIDADE, QUE OUTRAS MEDIDAS DE EFICIÊNCIA PODERIAM SER USADAS EM UMA CONFIGURAÇÃO REAL?
 
-
+RESPOSTA : - Espaço de memória utilizado pelo algoritmo.
+           - A exponencialidade do algoritmo de acordo com a taxa sua taxa de   crescimento
 
  1.1-3 SELECIONE UMA ESTRUTURA DE DADOS QUE VOCÊ JA TENHA VISTO ANTES E DISCUTA SEUS PONTOS FORTES W SUAS LIMITAÇÕES.
 
@@ -41,6 +44,3 @@ Algoritmos são estruturas bem definidas de sequencia de instruções que recebe
 
 
  1.1-5 MOSTRE UM PROBLEMA REAL NO QUAL APENAS A MELHOR SOLUÇÃO SERVIRÁ. EM SEGUIDA, APRESENTE UM PROBLEMA EM QUE BASTE UMA SOLUÇÃO QUE SEJA "APROXIMADAMENTE" A MELHOR.
-
-
- 
