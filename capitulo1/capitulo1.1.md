@@ -26,18 +26,18 @@ Algoritmos são estruturas bem definidas de sequencia de instruções que recebe
 
 <h3>EXERCÍCIO :</h3>
 
- 1.1-1 FORNEÇA UM EXEMPLO REAL NO QUAL APAREÇA UM DOS PROBLEMAS COMPUTACIONAIS A SEGUIR : ORDENAÇÃO; DETERMINAÇÃO DA MELHOR ORDEM DE MULTIPLICAÇÃO DE MATRIZES OU LOCALIZAÇÃO DA ENVOLTÓRIA CONVEXA.
+ **1.1-1 FORNEÇA UM EXEMPLO REAL NO QUAL APAREÇA UM DOS PROBLEMAS COMPUTACIONAIS A SEGUIR : ORDENAÇÃO; DETERMINAÇÃO DA MELHOR ORDEM DE MULTIPLICAÇÃO DE MATRIZES OU LOCALIZAÇÃO DA ENVOLTÓRIA CONVEXA.**
 
 <b>RESPOSTA :</b> Atualmente costumo a jogar um jogo mobile de estratégia chamado clash Royale,  onde no jogo se possui cartas e cada carta tem como propriedades : raridade e quantidade de elixir, e na interface do jogo se tem a opção de ordenar as cartas por raridade ou por quantidade de elixir, onde com certeza foi usado um algoritmo de ordenação para a solução desse problema.
 
 
 
- 1.1-2 ALÉM DA VELOCIDADE, QUE OUTRAS MEDIDAS DE EFICIÊNCIA PODERIAM SER USADAS EM UMA CONFIGURAÇÃO REAL?
+ **1.1-2 ALÉM DA VELOCIDADE, QUE OUTRAS MEDIDAS DE EFICIÊNCIA PODERIAM SER USADAS EM UMA CONFIGURAÇÃO REAL?**
 
 <b>RESPOSTA :</b> - Espaço de memória utilizado pelo algoritmo.<br>
            - A exponencialidade do algoritmo de acordo com a taxa sua taxa de   crescimento
 
- 1.1-3 SELECIONE UMA ESTRUTURA DE DADOS QUE VOCÊ JA TENHA VISTO ANTES E DISCUTA SEUS PONTOS FORTES e SUAS LIMITAÇÕES.
+ **1.1-3 SELECIONE UMA ESTRUTURA DE DADOS QUE VOCÊ JA TENHA VISTO ANTES E DISCUTA SEUS PONTOS FORTES e SUAS LIMITAÇÕES.**
 
 **RESPOSTA :** Para fazer esta análise escolhi a estrutura *Lista ligada*.
 Sendo bem direto, um vetor simples, é rápido para recuperarmos determinado dado quando sabemos onde queremos buscá-lo, ou seja, basta sabermos a posição em que o dado está armazenada e passar como indexador, porém, para inserirmos dados em um vetor de maneira não sequencial é uma atividade custosa, pois temos que : <br>
@@ -115,7 +115,7 @@ Isso permite a facilidade de adicionar um novo elemento em qualquer posição da
 
 A depender de alguns fatores, como por exemplo, o tamanho da lista, a operação de recuperar um elemento da lista em posição aleatória pode levar tempo linear, pois é preciso navegar pelas referências até que o dado desejado seja encontrado.
 
- 1.1-4 EM QUE ASPECTOS OS PROBLEMAS DO CAMINHO MAIS CURTO E DO CAIXEIRO VIAJANTE ANTERIORES SÃO SEMELHANTES ? EM QUE ASPECTOS SÃO DIFERENTES ?
+ **1.1-4 EM QUE ASPECTOS OS PROBLEMAS DO CAMINHO MAIS CURTO E DO CAIXEIRO VIAJANTE ANTERIORES SÃO SEMELHANTES ? EM QUE ASPECTOS SÃO DIFERENTES ?**
 
 
- 1.1-5 MOSTRE UM PROBLEMA REAL NO QUAL APENAS A MELHOR SOLUÇÃO SERVIRÁ. EM SEGUIDA, APRESENTE UM PROBLEMA EM QUE BASTE UMA SOLUÇÃO QUE SEJA "APROXIMADAMENTE" A MELHOR.
+ **1.1-5 MOSTRE UM PROBLEMA REAL NO QUAL APENAS A MELHOR SOLUÇÃO SERVIRÁ. EM SEGUIDA, APRESENTE UM PROBLEMA EM QUE BASTE UMA SOLUÇÃO QUE SEJA "APROXIMADAMENTE" A MELHOR.**
