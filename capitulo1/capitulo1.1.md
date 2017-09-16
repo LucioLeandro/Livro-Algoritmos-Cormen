@@ -28,17 +28,21 @@ Algoritmos são estruturas bem definidas de sequencia de instruções que recebe
 
  1.1-1 FORNEÇA UM EXEMPLO REAL NO QUAL APAREÇA UM DOS PROBLEMAS COMPUTACIONAIS A SEGUIR : ORDENAÇÃO; DETERMINAÇÃO DA MELHOR ORDEM DE MULTIPLICAÇÃO DE MATRIZES OU LOCALIZAÇÃO DA ENVOLTÓRIA CONVEXA.
 
-RESPOSTA : Atualmente costumo a jogar um jogo mobile de estratégia chamado clash Royale,  onde no jogo se possui cartas e cada carta tem como propriedades : raridade e quantidade de elixir, e na interface do jogo se tem a opção de ordenar as cartas por raridade ou por quantidade de elixir, onde com certeza foi usado um algoritmo de ordenação para a solução desse problema.
+<b>RESPOSTA :</b> Atualmente costumo a jogar um jogo mobile de estratégia chamado clash Royale,  onde no jogo se possui cartas e cada carta tem como propriedades : raridade e quantidade de elixir, e na interface do jogo se tem a opção de ordenar as cartas por raridade ou por quantidade de elixir, onde com certeza foi usado um algoritmo de ordenação para a solução desse problema.
 
 
 
  1.1-2 ALÉM DA VELOCIDADE, QUE OUTRAS MEDIDAS DE EFICIÊNCIA PODERIAM SER USADAS EM UMA CONFIGURAÇÃO REAL?
 
-RESPOSTA : - Espaço de memória utilizado pelo algoritmo.
+<b>RESPOSTA :</b> - Espaço de memória utilizado pelo algoritmo.<br>
            - A exponencialidade do algoritmo de acordo com a taxa sua taxa de   crescimento
 
- 1.1-3 SELECIONE UMA ESTRUTURA DE DADOS QUE VOCÊ JA TENHA VISTO ANTES E DISCUTA SEUS PONTOS FORTES W SUAS LIMITAÇÕES.
+ 1.1-3 SELECIONE UMA ESTRUTURA DE DADOS QUE VOCÊ JA TENHA VISTO ANTES E DISCUTA SEUS PONTOS FORTES e SUAS LIMITAÇÕES.
 
+**RESPOSTA :** Para fazer esta análise escolhi a estrutura *Lista ligada*.
+Sendo bem direto, um vetor simples, é rápido para recuperarmos determinada informação quando sabemos onde queremos buscá-lo, ou seja, basta sabermos a posição em que a informação está armazenada e passar como indexador, porém, para inserirmos informação em um vetor de maneira não sequencial é um pouco custoso, pois temos que : <br>
+- Verificar se o vetor ainda tem capacidade disponível para armazenar a nova informação<br>
+- 
 
  1.1-4 EM QUE ASPECTOS OS PROBLEMAS DO CAMINHO MAIS CURTO E DO CAIXEIRO VIAJANTE ANTERIORES SÃO SEMELHANTES ? EM QUE ASPECTOS SÃO DIFERENTES ?
 
