@@ -40,15 +40,73 @@ Algoritmos são estruturas bem definidas de sequencia de instruções que recebe
  1.1-3 SELECIONE UMA ESTRUTURA DE DADOS QUE VOCÊ JA TENHA VISTO ANTES E DISCUTA SEUS PONTOS FORTES e SUAS LIMITAÇÕES.
 
 **RESPOSTA :** Para fazer esta análise escolhi a estrutura *Lista ligada*.
-Sendo bem direto, um vetor simples, é rápido para recuperarmos determinado dado quando sabemos onde queremos buscá-lo, ou seja, basta sabermos a posição em que o dado está armazenada e passar como indexador, porém, para inserirmos dados em um vetor de maneira não sequencial é um pouco custoso, pois temos que : <br>
+Sendo bem direto, um vetor simples, é rápido para recuperarmos determinado dado quando sabemos onde queremos buscá-lo, ou seja, basta sabermos a posição em que o dado está armazenada e passar como indexador, porém, para inserirmos dados em um vetor de maneira não sequencial é uma atividade custosa, pois temos que : <br>
 
 <ul>
-  <li>1</li>
+  <li>Verificar se o vetor ainda tem capacidade disponível para armazenar o novo dado.</li>
+  <li>Caso o vetor ainda possua capacidade :
+  <ul>
+    <li>Armazenar o novo dado na primeira posição livre, se for de maneira sequencial</li>
+    <li>Se for no meio, temos que rearrumar o vetor empurrando para uma posição a frente, todos os dados a partir da posição onde queremos armazenar o novo dado.</li>
+   </ul>
+  </li>
+  <li> Caso não haja mais capacidade :
+  <ul>
+  <li>Criar um novo vetor com maior capacidade que o atual.</li>
+  <li>copiar todos os dados do vetor atual para o vetor novo.</li>
+  <li>Inserir o novo dado na primeira posição livre, se for de maneira sequencial</li>
+  <li>Se não for sequencial, rearrumar o vetor empurrando para uma posição a frente, todos os dados a partir da posição onde queremos armazenar o novo dado.</li>
+  <li>E por ultimo, tornar o vetor novo, o atual.</li>
 </ul>
-- Verificar se o vetor ainda tem capacidade disponível para armazenar o novo dado.<br>
-- Caso o vetor ainda possua capacidade, armazenar o novo dado na primeira posição livre.<br>
-- Caso não haja mais capacidade, criar um novo vetor com maior capacidade que o atual, copiar todos os dados do vetor atual para o vetor novo
--
+
+*pequeno exemplo de código de vetor em Java, no paradigma orientado a objetos*<br><br>
+
+```
+// O método abaixo é responsável por garantir que o vetor tenha espaço para armazenar o novo dado, já que em Java não é possível fazer realocação de vetor, então cria-se um novo vetor, com maior capacidade(nesse caso, dobro a capacidade)
+
+private void garanteEspaco() {
+   if(totalDeDados == dados.length) {
+       Dado[] novoArray = new Dado[dados.length*2];
+       for(int i = 0; i < dados.length; i++) {
+           novoArray[i] = dado[i];
+       }
+       this.dados= novoArray;
+   }
+
+   // o método abaixo adiciona um novo dado na posição desejada.
+
+   public void adiciona(int posicao, Dado dado) {
+       this.garanteEspaco();
+       if(!posicaoValida(posicao)) {
+           throw new IllegalArgumentException("posicao invalida");
+       }
+       for(int i = totalDeDados - 1; i >= posicao; i-=1) {
+           dados[i+1] = dados[i];
+       }
+       dados[posicao] = dado;
+       totalDeDados++;
+   }
+}
+```
+
+Para resolver esse problema, existe a *Lista ligada*.<br><br>
+
+Resumidamente, diferente de um vetor, a lista ligada armazena os dados em lugares diferentes da memória, porém um dado aponta para o outro, indicando qual o próximo elemento.<br>
+
+*Um exmplo em java*
+
+<br>
+
+```
+package estuturadedados.listaligada;
+
+Public Class Dado {
+  private Object dado;
+  private Dado proximo;
+}
+```
+
+
 
  1.1-4 EM QUE ASPECTOS OS PROBLEMAS DO CAMINHO MAIS CURTO E DO CAIXEIRO VIAJANTE ANTERIORES SÃO SEMELHANTES ? EM QUE ASPECTOS SÃO DIFERENTES ?
 
