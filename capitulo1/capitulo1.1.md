@@ -62,7 +62,9 @@ Sendo bem direto, um vetor simples, é rápido para recuperarmos determinado dad
 *pequeno exemplo de código de vetor em Java, no paradigma orientado a objetos*<br><br>
 
 ```
-// O método abaixo é responsável por garantir que o vetor tenha espaço para armazenar o novo dado, já que em Java não é possível fazer realocação de vetor, então cria-se um novo vetor, com maior capacidade(nesse caso, dobro a capacidade)
+// O método abaixo é responsável por garantir que o vetor tenha espaço para armazenar o novo dado,
+ já que em Java não é possível fazer realocação de vetor,
+  então cria-se um novo vetor, com maior capacidade(nesse caso, dobro a capacidade)
 
 private void garanteEspaco() {
    if(totalDeDados == dados.length) {
@@ -93,9 +95,8 @@ Para resolver esse problema, existe a *Lista ligada*.<br><br>
 
 Resumidamente, diferente de um vetor, a lista ligada armazena os dados em lugares diferentes da memória, porém um dado aponta para o outro, indicando qual o próximo elemento.<br>
 
-*Um exmplo em java*
+*pequeno exemplo de código de vetor em Java, no paradigma orientado a objetos*<br><br>
 
-<br>
 
 ```
 package estuturadedados.listaligada;
@@ -106,7 +107,13 @@ Public Class Dado {
 }
 ```
 
+<h5>Ponto forte</h5>
 
+Isso permite a facilidade de adicionar um novo elemento em qualquer posição da lista de maneira eficiente e rápida.
+
+<h5>Ponto fraco</h5>
+
+A depender de alguns fatores, como por exemplo, o tamanho da lista, a operação de recuperar um elemento da lista em posição aleatória pode levar tempo linear, pois é preciso navegar pelas referências até que o dado desejado seja encontrado.
 
  1.1-4 EM QUE ASPECTOS OS PROBLEMAS DO CAMINHO MAIS CURTO E DO CAIXEIRO VIAJANTE ANTERIORES SÃO SEMELHANTES ? EM QUE ASPECTOS SÃO DIFERENTES ?
 
