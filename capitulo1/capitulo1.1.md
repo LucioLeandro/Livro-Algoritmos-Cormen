@@ -40,9 +40,15 @@ Algoritmos são estruturas bem definidas de sequencia de instruções que recebe
  1.1-3 SELECIONE UMA ESTRUTURA DE DADOS QUE VOCÊ JA TENHA VISTO ANTES E DISCUTA SEUS PONTOS FORTES e SUAS LIMITAÇÕES.
 
 **RESPOSTA :** Para fazer esta análise escolhi a estrutura *Lista ligada*.
-Sendo bem direto, um vetor simples, é rápido para recuperarmos determinada informação quando sabemos onde queremos buscá-lo, ou seja, basta sabermos a posição em que a informação está armazenada e passar como indexador, porém, para inserirmos informação em um vetor de maneira não sequencial é um pouco custoso, pois temos que : <br>
-- Verificar se o vetor ainda tem capacidade disponível para armazenar a nova informação<br>
-- 
+Sendo bem direto, um vetor simples, é rápido para recuperarmos determinado dado quando sabemos onde queremos buscá-lo, ou seja, basta sabermos a posição em que o dado está armazenada e passar como indexador, porém, para inserirmos dados em um vetor de maneira não sequencial é um pouco custoso, pois temos que : <br>
+
+<ul>
+  <li>1</li>
+</ul>
+- Verificar se o vetor ainda tem capacidade disponível para armazenar o novo dado.<br>
+- Caso o vetor ainda possua capacidade, armazenar o novo dado na primeira posição livre.<br>
+- Caso não haja mais capacidade, criar um novo vetor com maior capacidade que o atual, copiar todos os dados do vetor atual para o vetor novo
+-
 
  1.1-4 EM QUE ASPECTOS OS PROBLEMAS DO CAMINHO MAIS CURTO E DO CAIXEIRO VIAJANTE ANTERIORES SÃO SEMELHANTES ? EM QUE ASPECTOS SÃO DIFERENTES ?
 
