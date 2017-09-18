@@ -117,5 +117,21 @@ A depender de alguns fatores, como por exemplo, o tamanho da lista, a operação
 
  **1.1-4 EM QUE ASPECTOS OS PROBLEMAS DO CAMINHO MAIS CURTO E DO CAIXEIRO VIAJANTE ANTERIORES SÃO SEMELHANTES ? EM QUE ASPECTOS SÃO DIFERENTES ?**
 
+**RESPOSTA :** Ambos os problemas se assemelham em questão de ter como solução a menor distância entre pontos, Porém são algoritmos distintos.<br>
+a solução do problema menor caminho, é o menor caminho entre um nó inicial e um nó final, já a solução do problema caixeiro viajante é a menor rota entre todos os nós existentes. Sendo que existem algoritmos eficientes para solucionar o problema de menor caminho, já para solucionar o problema do caixeiro viajante que é um problema *problema difícil - NP-completo*, ainda não há algoritmos eficientes conhecidos, contudo, há algoritmos que em determinadas hipóteses nos retorna uma menor distância não muito acima da menor distância possível.
 
  **1.1-5 MOSTRE UM PROBLEMA REAL NO QUAL APENAS A MELHOR SOLUÇÃO SERVIRÁ. EM SEGUIDA, APRESENTE UM PROBLEMA EM QUE BASTE UMA SOLUÇÃO QUE SEJA "APROXIMADAMENTE" A MELHOR.**
+
+**RESPOSTA :** Se apenas a melhor solução servirá, nada melhor do que exemplificar com dinheiro. As instituições bancárias lucram com o que chamamos de *Spread bancário*, que nada mais é que, a diferença entre os juros que a instituição cobra ao emprestar dinheiro aos clientes, e os rendimentos  pagos a ele por seus investimentos.
+
+<h6>Exemplo caso 1:</h6><br>
+
+Imagine a seguinte hipótese : Lúcio aplica R$ 100,00 na poupança, cuja taxa de rendimento é de 6%. O banco pega esses R$ 100,00 e faz um empréstimo a Leandro, e cobra juros de 15% ao mês ao mesmo.<br>
+Um mês depois Leandro precisa pagar R$ 115,00 para saldar sua dívida com a instituição.<br>
+Desses R$ 115,00, o banco devolve o dinheiro de Lúcio com 6% a mais (R$ 106), e fica com R$ 9,00 de lucro.<br><br>
+
+Tendo isso em mente, é necessário que o algoritmo responsável por todos esses cálculos, que também leva em consideração outros fatores não citados aqui, seja eficiente, pois a instituição não pode perder dinheiro, e também não pode pagar os rendimentos corretos aos seus clientes.
+
+<h6>Exemplo caso 2:</h6><br>
+
+...
